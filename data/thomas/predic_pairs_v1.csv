@@ -1,0 +1,474 @@
+n_sid,n_eid,n_start,n_end,n_token,n_label,n_referent,sid,eid,start,end,token,label,referent,true_relation,predict_relation
+0,1,13,13,section,B_nBio,0,0,0,0,0,leaves,B_Bio,,+1,1.0
+0,14,89,89,base,B_nBio,58,0,11,57,58,median leaflets,B_Bio,,+1,1.0
+0,18,102,102,margins,B_nBio,98,0,16,97,98,median leaflet,B_Bio,,+1,1.0
+0,18,102,102,margins,B_nBio,98,0,17,97,99,median leaflets section,B_Bio,,+1,-1.0
+0,19,106,106,apex,B_nBio,98,0,16,97,98,median leaflet,B_Bio,,+1,1.0
+0,19,106,106,apex,B_nBio,98,0,17,97,99,median leaflets section,B_Bio,,+1,-1.0
+1,1,25,25,apex,B_nBio,0,1,0,0,0,basidia,B_Bio,,+1,1.0
+2,7,53,53,apex,B_nBio,40,2,0,0,0,stems,B_Bio,,-1,1.0
+2,7,53,53,apex,B_nBio,40,2,3,17,17,leaves,B_Bio,,-1,1.0
+2,7,53,53,apex,B_nBio,40,2,4,21,21,blades,B_Bio,,-1,1.0
+2,7,53,53,apex,B_nBio,40,2,5,40,40,phyllaries,B_Bio,,+1,1.0
+3,1,7,7,apex,B_nBio,1,3,0,1,1,mandibles,B_Bio,,+1,1.0
+4,5,25,25,base,B_nBio,18,4,0,0,0,flesh,B_Bio,,-1,1.0
+4,5,25,25,base,B_nBio,18,4,3,18,18,stem,B_Bio,,+1,1.0
+4,5,25,25,base,B_nBio,18,4,4,18,19,stem apex,B_Bio,,+1,-1.0
+5,2,16,16,apex,B_nBio,0,5,0,0,0,microsporophylls,B_Bio,,+1,1.0
+6,3,33,33,base,B_nBio,1,6,0,0,1,median leaflets,B_Bio,,+1,1.0
+6,7,47,47,margins,B_nBio,42,6,0,0,1,median leaflets,B_Bio,,-1,1.0
+6,7,47,47,margins,B_nBio,42,6,5,41,42,median leaflet,B_Bio,,+1,1.0
+6,7,47,47,margins,B_nBio,42,6,6,41,43,median leaflets section,B_Bio,,+1,-1.0
+6,8,50,50,apex,B_nBio,42,6,5,41,42,median leaflet,B_Bio,,+1,1.0
+6,8,50,50,apex,B_nBio,42,6,6,41,43,median leaflets section,B_Bio,,+1,-1.0
+7,10,42,42,apex,B_nBio,36,7,5,21,21,mandibles,B_Bio,,-1,1.0
+7,10,42,42,apex,B_nBio,36,7,9,36,36,mandibles,B_Bio,,+1,1.0
+7,13,55,55,middle,B_nBio,51,7,9,36,36,mandibles,B_Bio,,-1,1.0
+7,13,55,55,middle,B_nBio,51,7,12,51,51,clypeus,B_Bio,,+1,1.0
+7,13,55,55,middle,B_nBio,51,7,14,58,58,head,B_Bio,,-1,1.0
+7,17,80,80,line,B_nBio,73,7,16,73,73,mesothorax,B_Bio,,+1,1.0
+7,18,84,84,base,B_nBio,73,7,16,73,73,mesothorax,B_Bio,,+1,1.0
+7,19,86,86,apex,B_nBio,73,7,16,73,73,mesothorax,B_Bio,,+1,1.0
+8,1,5,5,base,B_nBio,1,8,0,1,1,legs,B_Bio,,+1,1.0
+8,2,7,7,apex,B_nBio,1,8,0,1,1,legs,B_Bio,,+1,1.0
+9,3,39,40,apical pore,B_nBio,0,9,0,0,0,spores,B_Bio,,+1,1.0
+10,1,15,15,margin,B_nBio,0,10,0,0,0,pileus,B_Bio,,+1,1.0
+10,2,24,24,middle,B_nBio,0,10,0,0,0,pileus,B_Bio,,+1,1.0
+10,3,26,26,surface,B_nBio,0,10,0,0,0,pileus,B_Bio,,+1,1.0
+10,11,81,82,discal area,B_nBio,26,10,0,0,0,pileus,B_Bio,,-1,1.0
+10,11,81,82,discal area,B_nBio,26,10,3,26,26,surface,B_nBio,0,+1,-1.0
+10,11,81,82,discal area,B_nBio,26,10,8,61,61,pileus,B_Bio,,-1,1.0
+11,1,16,16,margin,B_nBio,0,11,0,0,0,pileus,B_Bio,,+1,1.0
+11,2,23,23,center,B_nBio,0,11,0,0,0,pileus,B_Bio,,+1,1.0
+11,5,51,52,marginal area,B_nBio,0,11,0,0,0,pileus,B_Bio,,+1,1.0
+12,1,13,13,margin,B_nBio,0,12,0,0,0,pileus,B_Bio,,+1,1.0
+12,4,48,49,marginal band,B_nBio,0,12,0,0,0,pileus,B_Bio,,+1,1.0
+12,6,62,62,surface,B_nBio,0,12,0,0,0,pileus,B_Bio,,+1,1.0
+12,9,77,77,margin,B_nBio,0,12,0,0,0,pileus,B_Bio,,+1,1.0
+12,9,77,77,margin,B_nBio,0,12,7,69,69,scales,B_Bio,,-1,1.0
+12,12,93,94,discal area,B_nBio,0,12,0,0,0,pileus,B_Bio,,+1,1.0
+13,1,12,12,margin,B_nBio,0,13,0,0,0,pileus,B_Bio,,+1,1.0
+13,2,21,21,center,B_nBio,0,13,0,0,0,pileus,B_Bio,,+1,1.0
+13,3,45,46,discal zone,B_nBio,0,13,0,0,0,pileus,B_Bio,,+1,1.0
+13,4,51,52,marginal area,B_nBio,0,13,0,0,0,pileus,B_Bio,,+1,1.0
+13,5,57,57,center,B_nBio,0,13,0,0,0,pileus,B_Bio,,+1,1.0
+14,1,13,13,base,B_nBio,0,14,0,0,0,stipe,B_Bio,,+1,1.0
+14,2,21,21,base,B_nBio,0,14,0,0,0,stipe,B_Bio,,+1,1.0
+14,10,81,81,base,B_nBio,78,14,0,0,0,stipe,B_Bio,,-1,1.0
+14,10,81,81,base,B_nBio,78,14,8,75,75,pileus,B_Bio,,-1,1.0
+14,10,81,81,base,B_nBio,78,14,9,78,78,stipe,B_Bio,,+1,1.0
+14,11,84,84,areas,B_nBio,78,14,8,75,75,pileus,B_Bio,,-1,1.0
+14,11,84,84,areas,B_nBio,78,14,9,78,78,stipe,B_Bio,,+1,1.0
+15,1,16,16,margin,B_nBio,0,15,0,0,0,pileus,B_Bio,,+1,1.0
+15,2,23,23,center,B_nBio,0,15,0,0,0,pileus,B_Bio,,+1,1.0
+15,5,51,52,marginal area,B_nBio,0,15,0,0,0,pileus,B_Bio,,+1,1.0
+16,1,16,16,band,B_nBio,20,16,0,1,1,worker,B_Bio,,-1,1.0
+16,1,16,16,band,B_nBio,20,16,2,20,20,segment,B_Bio,,+1,1.0
+16,4,26,29,basal and apical margins,B_nBio,20,16,2,20,20,segment,B_Bio,,+1,-1.0
+17,1,4,4,bands,B_nBio,1,17,0,1,1,stems,B_Bio,,+1,1.0
+18,2,23,23,margins,B_nBio,0,18,0,0,0,phyllaries,B_Bio,,+1,1.0
+18,3,29,29,zone,B_nBio,0,18,0,0,0,phyllaries,B_Bio,,+1,1.0
+18,4,33,33,bands,B_nBio,0,18,0,0,0,phyllaries,B_Bio,,+1,1.0
+18,6,37,37,apices,B_nBio,0,18,0,0,0,phyllaries,B_Bio,,+1,1.0
+19,3,42,42,bands,B_nBio,0,19,0,0,0,stipe,B_Bio,,+1,1.0
+20,1,19,19,base,B_nBio,0,20,0,0,0,stipe,B_Bio,,+1,1.0
+20,2,26,27,middle part,B_nBio,0,20,0,0,0,stipe,B_Bio,,+1,1.0
+20,4,49,49,bands,B_nBio,0,20,0,0,0,stipe,B_Bio,,+1,1.0
+21,2,28,28,base,B_nBio,0,21,0,0,0,stipe,B_Bio,,+1,1.0
+21,2,28,28,base,B_nBio,0,21,1,14,14,pileus,B_Bio,,-1,1.0
+21,4,63,63,base,B_nBio,0,21,0,0,0,stipe,B_Bio,,+1,1.0
+21,4,63,63,base,B_nBio,0,21,1,14,14,pileus,B_Bio,,-1,1.0
+21,8,83,83,bands,B_nBio,0,21,0,0,0,stipe,B_Bio,,+1,1.0
+21,8,83,83,bands,B_nBio,0,21,1,14,14,pileus,B_Bio,,-1,1.0
+21,8,83,83,bands,B_nBio,0,21,7,78,78,pileus,B_Bio,,-1,1.0
+22,1,22,22,center,B_nBio,0,22,0,0,0,pileus,B_Bio,,+1,1.0
+22,4,46,47,marginal band,B_nBio,0,22,0,0,0,pileus,B_Bio,,+1,1.0
+22,9,80,81,marginal band,B_nBio,0,22,0,0,0,pileus,B_Bio,,+1,1.0
+23,3,19,19,base,B_nBio,8,23,2,8,8,abdomen,B_Bio,,+1,1.0
+24,3,9,9,base,B_nBio,12,24,4,12,12,abdomen,B_Bio,,+1,1.0
+25,1,8,8,line,B_nBio,1,25,0,1,1,mesothorax,B_Bio,,+1,1.0
+25,2,12,12,base,B_nBio,1,25,0,1,1,mesothorax,B_Bio,,+1,1.0
+25,3,14,14,apex,B_nBio,1,25,0,1,1,mesothorax,B_Bio,,+1,1.0
+26,6,24,24,base,B_nBio,27,26,2,13,13,legs,B_Bio,,-1,1.0
+26,6,24,24,base,B_nBio,27,26,7,27,27,abdomen,B_Bio,,+1,1.0
+27,2,22,22,base,B_nBio,0,27,0,0,0,leaflets,B_Bio,,+1,1.0
+28,4,42,42,base,B_nBio,0,28,0,0,0,lamina,B_Bio,,+1,1.0
+28,4,42,42,base,B_nBio,0,28,1,17,18,lateral spines,B_Bio,,-1,1.0
+28,4,42,42,base,B_nBio,0,28,2,27,28,apical spine,B_Bio,,-1,1.0
+28,4,42,42,base,B_nBio,0,28,3,31,32,lateral spines,B_Bio,,-1,1.0
+29,1,11,11,base,B_nBio,0,29,0,0,0,stipe,B_Bio,,+1,1.0
+30,1,4,4,bases,B_nBio,0,30,0,0,0,plants,B_Bio,,+1,1.0
+31,2,14,14,apex,B_nBio,1,31,0,1,1,mandibles,B_Bio,,+1,1.0
+31,3,17,17,base,B_nBio,1,31,0,1,1,mandibles,B_Bio,,+1,1.0
+31,4,19,20,outer margins,B_nBio,1,31,0,1,1,mandibles,B_Bio,,+1,1.0
+31,5,22,22,apex,B_nBio,1,31,0,1,1,mandibles,B_Bio,,+1,1.0
+32,1,20,20,base,B_nBio,0,32,0,0,0,stipe,B_Bio,,+1,1.0
+32,4,55,55,belts,B_nBio,0,32,0,0,0,stipe,B_Bio,,+1,1.0
+33,1,14,14,margin,B_nBio,0,33,0,0,0,pileus,B_Bio,,+1,1.0
+33,2,23,23,middle,B_nBio,0,33,0,0,0,pileus,B_Bio,,+1,1.0
+33,3,34,35,marginal belt,B_nBio,0,33,0,0,0,pileus,B_Bio,,+1,1.0
+33,10,101,101,margin,B_nBio,0,33,0,0,0,pileus,B_Bio,,+1,1.0
+33,10,101,101,margin,B_nBio,0,33,1,14,14,margin,B_nBio,0,-1,1.0
+33,10,101,101,margin,B_nBio,0,33,2,23,23,middle,B_nBio,0,-1,1.0
+33,10,101,101,margin,B_nBio,0,33,9,94,94,scales,B_Bio,,-1,1.0
+34,3,9,9,base,B_nBio,12,34,4,12,12,abdomen,B_Bio,,+1,1.0
+38,2,23,23,bodies,B_nBio,0,38,0,0,0,cypselae,B_Bio,,+1,1.0
+39,3,24,24,middle,B_nBio,0,39,0,0,0,head,B_Bio,,+1,1.0
+39,4,28,28,sides,B_nBio,31,39,0,0,0,head,B_Bio,,-1,1.0
+39,4,28,28,sides,B_nBio,31,39,5,31,31,head,B_Bio,,+1,1.0
+39,7,39,39,face,B_nBio,0,39,0,0,0,head,B_Bio,,+1,1.0
+39,7,39,39,face,B_nBio,0,39,5,31,31,head,B_Bio,,-1,1.0
+39,8,42,42,cavities,B_nBio,39,39,7,39,39,face,B_nBio,0,+1,1.0
+39,9,46,46,base,B_nBio,49,39,10,49,49,clypeus,B_Bio,,+1,1.0
+40,5,29,30,oil cavities,B_nBio,23,40,4,22,23,cypsela faces,B_Bio,,+1,-1.0
+41,1,6,6,faces,B_nBio,0,41,0,0,0,cypselae,B_Bio,,+1,1.0
+41,2,8,9,oil cavities,B_nBio,6,41,1,6,6,faces,B_nBio,0,+1,1.0
+42,5,23,24,oil cavities,B_nBio,15,42,4,14,15,cypsela faces,B_Bio,,+1,-1.0
+43,2,21,22,apical margins,B_nBio,25,43,3,25,25,segments,B_Bio,,+1,1.0
+43,6,43,43,apex,B_nBio,29,43,4,29,29,node,B_Bio,,+1,1.0
+43,11,60,61,submarginal cell,B_nBio,55,43,10,55,55,wings,B_Bio,,+1,1.0
+43,12,75,75,apex,B_nBio,61,43,10,55,55,wings,B_Bio,,-1,1.0
+43,12,75,75,apex,B_nBio,61,43,11,60,61,submarginal cell,B_nBio,55,+1,-1.0
+44,2,10,10,sides,B_nBio,13,44,3,13,13,face,B_nBio,1,+1,1.0
+44,3,13,13,face,B_nBio,1,44,0,1,1,mandibles,B_Bio,,+1,1.0
+44,5,36,36,line,B_nBio,1,44,0,1,1,mandibles,B_Bio,,+1,1.0
+44,7,43,44,posterior margin,B_nBio,47,44,8,47,47,vertex,B_Bio,,+1,1.0
+44,12,68,68,cell,B_nBio,61,44,10,61,61,neuration,B_Bio,,+1,1.0
+44,12,68,68,cell,B_nBio,61,44,11,64,64,wings,B_Bio,,-1,1.0
+44,16,94,94,cell,B_nBio,61,44,10,61,61,neuration,B_Bio,,+1,-1.0
+46,4,21,21,edges,B_nBio,24,46,5,24,24,rhachis,B_Bio,,+1,1.0
+46,6,27,28,adaxial side,B_nBio,15,46,0,0,0,leaflets,B_Bio,,-1,1.0
+46,6,27,28,adaxial side,B_nBio,15,46,3,15,15,leaflets,B_Bio,,+1,1.0
+46,9,39,40,lower surface,B_nBio,15,46,3,15,15,leaflets,B_Bio,,+1,-1.0
+46,10,45,45,surfaces,B_nBio,15,46,3,15,15,leaflets,B_Bio,,+1,-1.0
+47,1,7,8,submarginal cells,B_nBio,1,47,0,0,1,anterior wings,B_Bio,,+1,1.0
+47,2,12,12,cells,B_nBio,1,47,0,0,1,anterior wings,B_Bio,,+1,1.0
+48,1,4,5,anterior margin,B_nBio,0,48,0,0,0,labrum,B_Bio,,+1,1.0
+48,5,24,25,submarginal cells,B_nBio,18,48,4,17,18,superior wings,B_Bio,,+1,1.0
+49,1,13,13,center,B_nBio,16,49,2,15,16,leaf crown,B_Bio,,+1,1.0
+49,3,26,26,apex,B_nBio,0,49,0,0,0,seed-cones,B_Bio,,+1,1.0
+50,1,8,8,line,B_nBio,1,50,0,1,1,mesothorax,B_Bio,,+1,1.0
+50,2,12,12,base,B_nBio,1,50,0,1,1,mesothorax,B_Bio,,+1,1.0
+50,3,14,14,apex,B_nBio,1,50,0,1,1,mesothorax,B_Bio,,+1,1.0
+50,4,20,20,line,B_nBio,1,50,0,1,1,mesothorax,B_Bio,,+1,1.0
+50,5,25,25,center,B_nBio,1,50,0,1,1,mesothorax,B_Bio,,+1,-1.0
+51,1,16,16,margin,B_nBio,0,51,0,0,0,pileus,B_Bio,,+1,1.0
+51,2,23,23,center,B_nBio,0,51,0,0,0,pileus,B_Bio,,+1,1.0
+51,5,51,52,marginal area,B_nBio,0,51,0,0,0,pileus,B_Bio,,+1,1.0
+52,1,14,14,center,B_nBio,0,52,0,0,0,cap,B_Bio,,+1,1.0
+52,2,17,17,margin,B_nBio,0,52,0,0,0,cap,B_Bio,,+1,1.0
+52,5,31,31,margin,B_nBio,0,52,0,0,0,cap,B_Bio,,+1,1.0
+52,8,64,64,margin,B_nBio,0,52,0,0,0,cap,B_Bio,,+1,1.0
+52,8,64,64,margin,B_nBio,0,52,7,56,56,scales,B_Bio,,-1,1.0
+52,9,66,66,center,B_nBio,0,52,0,0,0,cap,B_Bio,,+1,1.0
+53,1,6,6,content,B_nBio,1,53,0,1,1,pleurocystidia,B_Bio,,+1,1.0
+54,1,18,18,content,B_nBio,0,54,0,0,0,cheilocystidia,B_Bio,,+1,1.0
+55,1,24,24,apex,B_nBio,0,55,0,0,0,basidia,B_Bio,,+1,1.0
+55,3,36,36,content,B_nBio,0,55,0,0,0,basidia,B_Bio,,+1,1.0
+56,1,7,7,sides,B_nBio,9,56,2,9,9,lamellae,B_Bio,,+1,1.0
+56,4,27,27,content,B_nBio,1,56,0,1,1,macrobasidia,B_Bio,,+1,1.0
+57,1,33,34,apical pore,B_nBio,0,57,0,0,0,spores,B_Bio,,+1,1.0
+57,3,41,41,content,B_nBio,0,57,0,0,0,spores,B_Bio,,+1,1.0
+58,1,33,33,apex,B_nBio,0,58,0,0,0,spores,B_Bio,,+1,1.0
+58,2,37,38,apical pore,B_nBio,0,58,0,0,0,spores,B_Bio,,+1,1.0
+58,4,46,46,content,B_nBio,0,58,0,0,0,spores,B_Bio,,+1,1.0
+59,3,18,18,cracks,B_nBio,1,59,1,0,1,pileus surface,B_Bio,,+1,-1.0
+59,5,32,33,subcuticular layer,B_nBio,1,59,0,0,0,pileus,B_Bio,,-1,1.0
+59,5,32,33,subcuticular layer,B_nBio,1,59,1,0,1,pileus surface,B_Bio,,+1,-1.0
+60,2,10,10,edge,B_nBio,14,60,3,13,14,upper margin,B_nBio,0,+1,1.0
+60,3,13,14,upper margin,B_nBio,0,60,0,0,0,abdomen,B_Bio,,+1,1.0
+60,3,13,14,upper margin,B_nBio,0,60,1,3,3,scale,B_Bio,,-1,1.0
+61,1,8,9,inner edge,B_nBio,1,61,0,1,1,mandibles,B_Bio,,+1,1.0
+62,1,5,6,inner edge,B_nBio,1,62,0,1,1,mandibles,B_Bio,,+1,1.0
+62,3,16,16,apex,B_nBio,1,62,0,1,1,mandibles,B_Bio,,+1,1.0
+63,1,8,9,inner edge,B_nBio,0,63,0,0,0,mandibles,B_Bio,,+1,1.0
+63,3,17,17,tips,B_nBio,0,63,0,0,0,mandibles,B_Bio,,+1,1.0
+63,4,24,24,apex,B_nBio,0,63,0,0,0,mandibles,B_Bio,,+1,1.0
+64,3,32,33,anterior portion,B_nBio,0,64,0,0,0,head,B_Bio,,+1,1.0
+64,3,32,33,anterior portion,B_nBio,0,64,4,36,36,head,B_Bio,,-1,1.0
+64,6,48,49,inner edge,B_nBio,39,64,5,39,39,mandibles,B_Bio,,+1,1.0
+64,7,56,56,notch,B_nBio,39,64,5,39,39,mandibles,B_Bio,,+1,1.0
+64,8,59,59,apex,B_nBio,39,64,5,39,39,mandibles,B_Bio,,+1,1.0
+65,1,5,6,inner edge,B_nBio,0,65,0,0,0,mandibles,B_Bio,,+1,1.0
+66,4,21,21,edges,B_nBio,24,66,5,24,24,rhachis,B_Bio,,+1,1.0
+66,6,27,28,adaxial side,B_nBio,15,66,0,0,0,leaflets,B_Bio,,-1,1.0
+66,6,27,28,adaxial side,B_nBio,15,66,3,15,15,leaflets,B_Bio,,+1,1.0
+67,2,27,27,edge,B_nBio,0,67,0,0,0,lamellae,B_Bio,,+1,1.0
+68,1,15,15,edge,B_nBio,0,68,0,0,0,lamellae,B_Bio,,+1,1.0
+69,1,7,7,edges,B_nBio,0,69,0,0,0,cypselae,B_Bio,,+1,1.0
+70,3,17,18,terminal elements,B_nBio,0,70,0,0,0,pileipellis,B_Bio,,+1,1.0
+70,4,23,23,tips,B_nBio,0,70,0,0,0,pileipellis,B_Bio,,+1,1.0
+70,4,23,23,tips,B_nBio,0,70,3,17,18,terminal elements,B_nBio,0,-1,1.0
+71,3,27,28,terminal elements,B_nBio,0,71,0,0,0,cheilocystidia,B_Bio,,+1,1.0
+72,1,19,19,base,B_nBio,0,72,0,0,0,cheilocystidia,B_Bio,,+1,1.0
+72,2,22,23,terminal element,B_nBio,0,72,0,0,0,cheilocystidia,B_Bio,,+1,1.0
+72,10,74,74,base,B_nBio,68,72,9,68,68,cheilocystidia,B_Bio,,+1,1.0
+72,11,79,80,terminal element,B_nBio,68,72,9,68,68,cheilocystidia,B_Bio,,+1,1.0
+72,12,90,91,terminal element,B_nBio,68,72,0,0,0,cheilocystidia,B_Bio,,-1,1.0
+72,12,90,91,terminal element,B_nBio,68,72,9,68,68,cheilocystidia,B_Bio,,+1,1.0
+72,13,101,102,ante-terminal elements,B_nBio,68,72,0,0,0,cheilocystidia,B_Bio,,-1,1.0
+72,13,101,102,ante-terminal elements,B_nBio,68,72,9,68,68,cheilocystidia,B_Bio,,+1,1.0
+73,2,25,26,apical protuberance,B_nBio,0,73,0,0,0,cheilocystidia,B_Bio,,+1,1.0
+73,5,44,45,terminal element,B_nBio,0,73,0,0,0,cheilocystidia,B_Bio,,+1,1.0
+73,6,64,65,outer surface,B_nBio,68,73,0,0,0,cheilocystidia,B_Bio,,-1,1.0
+73,6,64,65,outer surface,B_nBio,68,73,1,5,5,numbers,B_Bio,,-1,1.0
+73,6,64,65,outer surface,B_nBio,68,73,7,68,68,annulus,B_Bio,,+1,1.0
+73,10,85,86,terminal elements,B_nBio,0,73,0,0,0,cheilocystidia,B_Bio,,+1,1.0
+73,10,85,86,terminal elements,B_nBio,0,73,1,5,5,numbers,B_Bio,,-1,1.0
+73,10,85,86,terminal elements,B_nBio,0,73,7,68,68,annulus,B_Bio,,-1,1.0
+74,0,0,1,lower surface,B_nBio,5,74,1,4,5,upper annulus,B_Bio,,+1,1.0
+74,2,11,11,elements,B_nBio,1,74,0,0,1,lower surface,B_nBio,5,+1,1.0
+74,4,26,27,broader elements,B_nBio,1,74,0,0,1,lower surface,B_nBio,5,+1,1.0
+74,5,36,36,tips,B_nBio,27,74,2,11,11,elements,B_nBio,1,-1,1.0
+74,5,36,36,tips,B_nBio,27,74,4,26,27,broader elements,B_nBio,1,+1,-1.0
+75,4,17,17,end,B_nBio,4,75,1,4,4,node,B_Bio,,+1,1.0
+76,5,21,21,ends,B_nBio,13,76,0,0,0,female-cones,B_Bio,,-1,1.0
+76,5,21,21,ends,B_nBio,13,76,3,13,13,sporophylls,B_Bio,,+1,1.0
+77,4,22,22,elements,B_nBio,2,77,1,0,2,annulus lower surface,B_Bio,,+1,-1.0
+77,5,25,25,ends,B_nBio,22,77,4,22,22,elements,B_nBio,2,+1,1.0
+78,1,6,6,ends,B_nBio,9,78,2,9,9,rhizomes,B_Bio,,+1,1.0
+79,6,29,29,sides,B_nBio,32,79,7,32,32,head,B_Bio,,+1,1.0
+79,8,35,35,face,B_nBio,32,79,7,32,32,head,B_Bio,,+1,1.0
+79,9,38,38,base,B_nBio,41,79,10,41,41,clypeus,B_Bio,,+1,1.0
+80,3,18,18,sides,B_nBio,21,80,0,1,1,head,B_Bio,,-1,1.0
+80,3,18,18,sides,B_nBio,21,80,1,3,3,thorax,B_Bio,,-1,1.0
+80,3,18,18,sides,B_nBio,21,80,4,21,21,head,B_Bio,,+1,1.0
+80,3,18,18,sides,B_nBio,21,80,5,24,24,head,B_Bio,,-1,1.0
+80,7,34,34,face,B_nBio,21,80,0,1,1,head,B_Bio,,-1,1.0
+80,7,34,34,face,B_nBio,21,80,4,21,21,head,B_Bio,,+1,1.0
+80,7,34,34,face,B_nBio,21,80,5,24,24,head,B_Bio,,-1,1.0
+81,2,5,6,lower part,B_nBio,9,81,3,9,9,face,B_Bio,,+1,1.0
+82,2,8,9,anterior face,B_nBio,4,82,1,4,4,peduncle,B_Bio,,+1,1.0
+83,2,11,11,apices,B_nBio,0,83,0,0,0,phyllaries,B_Bio,,+1,1.0
+83,3,14,15,abaxial face,B_nBio,0,83,0,0,0,phyllaries,B_Bio,,+1,1.0
+85,1,3,3,faces,B_nBio,0,85,0,0,0,leaves,B_Bio,,+1,1.0
+86,1,6,6,grooves,B_nBio,10,86,0,1,1,abdomen,B_Bio,,-1,1.0
+86,1,6,6,grooves,B_nBio,10,86,2,9,10,basal segment,B_Bio,,+1,1.0
+87,1,17,17,groove,B_nBio,0,87,0,0,0,annulus,B_Bio,,+1,1.0
+87,2,20,20,margin,B_nBio,0,87,0,0,0,annulus,B_Bio,,+1,1.0
+87,3,29,30,upper surface,B_nBio,0,87,0,0,0,annulus,B_Bio,,+1,1.0
+87,6,58,58,margin,B_nBio,0,87,0,0,0,annulus,B_Bio,,+1,1.0
+88,1,4,4,portion,B_nBio,0,88,0,0,0,thorax,B_Bio,,+1,1.0
+88,2,7,7,grooves,B_nBio,10,88,0,0,0,thorax,B_Bio,,-1,1.0
+88,2,7,7,grooves,B_nBio,10,88,3,10,10,disk,B_Bio,,+1,1.0
+88,6,27,27,groove,B_nBio,18,88,0,0,0,thorax,B_Bio,,-1,1.0
+88,6,27,27,groove,B_nBio,18,88,3,10,10,disk,B_Bio,,-1,1.0
+88,6,27,27,groove,B_nBio,18,88,5,18,18,thorax,B_Bio,,+1,1.0
+88,6,27,27,groove,B_nBio,18,88,7,31,31,sides,B_nBio,18,-1,1.0
+88,7,31,31,sides,B_nBio,18,88,0,0,0,thorax,B_Bio,,-1,1.0
+88,7,31,31,sides,B_nBio,18,88,5,18,18,thorax,B_Bio,,+1,1.0
+89,3,14,14,face,B_nBio,0,89,0,0,0,head,B_Bio,,+1,1.0
+89,7,38,38,grooves,B_nBio,14,89,0,0,0,head,B_Bio,,-1,1.0
+89,7,38,38,grooves,B_nBio,14,89,3,14,14,face,B_nBio,0,+1,1.0
+90,1,9,9,groove,B_nBio,13,90,0,0,0,petiole,B_Bio,,-1,1.0
+90,1,9,9,groove,B_nBio,13,90,2,12,13,upper side,B_nBio,0,+1,1.0
+90,2,12,13,upper side,B_nBio,0,90,0,0,0,petiole,B_Bio,,+1,1.0
+90,4,24,25,lower side,B_nBio,0,90,0,0,0,petiole,B_Bio,,+1,1.0
+91,2,25,25,layer,B_nBio,0,91,0,0,0,seeds,B_Bio,,+1,1.0
+92,1,6,6,layer,B_nBio,0,92,0,0,0,seeds,B_Bio,,+1,1.0
+93,1,2,2,layer,B_nBio,5,93,2,5,5,hyphae,B_Bio,,+1,1.0
+95,1,34,35,apical pore,B_nBio,0,95,0,0,0,spores,B_Bio,,+1,1.0
+95,3,49,49,layer,B_nBio,45,95,0,0,0,spores,B_Bio,,-1,1.0
+95,3,49,49,layer,B_nBio,45,95,2,45,45,spot,B_Bio,,+1,1.0
+95,4,61,61,layer,B_nBio,0,95,0,0,0,spores,B_Bio,,+1,1.0
+95,4,61,61,layer,B_nBio,0,95,2,45,45,spot,B_Bio,,-1,1.0
+97,0,0,0,margin,B_nBio,3,97,1,3,3,lamellae,B_Bio,,+1,-1.0
+97,3,15,15,line,B_nBio,0,97,0,0,0,margin,B_nBio,3,+1,1.0
+98,1,5,5,lines,B_nBio,0,98,0,0,0,stems,B_Bio,,+1,-1.0
+99,2,16,16,lines,B_nBio,0,99,0,0,0,styles,B_Bio,,+1,1.0
+99,3,18,18,bases,B_nBio,0,99,0,0,0,styles,B_Bio,,+1,1.0
+99,4,20,20,apices,B_nBio,0,99,0,0,0,styles,B_Bio,,+1,1.0
+100,4,23,23,margin,B_nBio,4,100,1,4,4,scale,B_Bio,,+1,1.0
+100,4,23,23,margin,B_nBio,4,100,3,14,14,front,B_Bio,,-1,1.0
+101,3,21,21,sides,B_nBio,24,101,0,1,1,head,B_Bio,,-1,1.0
+101,3,21,21,sides,B_nBio,24,101,1,7,7,thorax,B_Bio,,-1,1.0
+101,3,21,21,sides,B_nBio,24,101,4,24,24,head,B_Bio,,+1,1.0
+101,6,31,31,middle,B_nBio,27,101,0,1,1,head,B_Bio,,-1,1.0
+101,6,31,31,middle,B_nBio,27,101,4,24,24,head,B_Bio,,-1,1.0
+101,6,31,31,middle,B_nBio,27,101,5,27,27,clypeus,B_Bio,,+1,1.0
+101,7,34,35,anterior margin,B_nBio,27,101,0,1,1,head,B_Bio,,-1,1.0
+101,7,34,35,anterior margin,B_nBio,27,101,4,24,24,head,B_Bio,,-1,1.0
+101,7,34,35,anterior margin,B_nBio,27,101,5,27,27,clypeus,B_Bio,,+1,1.0
+102,1,17,18,upper surface,B_nBio,0,102,0,0,0,annulus,B_Bio,,+1,1.0
+102,2,25,26,lower surface,B_nBio,0,102,0,0,0,annulus,B_Bio,,+1,1.0
+102,3,29,29,margin,B_nBio,26,102,0,0,0,annulus,B_Bio,,-1,1.0
+102,3,29,29,margin,B_nBio,26,102,2,25,26,lower surface,B_nBio,0,+1,1.0
+103,2,12,12,margin,B_nBio,7,103,0,0,0,rectrices,B_Bio,,-1,1.0
+103,2,12,12,margin,B_nBio,7,103,1,6,7,outer rectrices,B_Bio,,+1,-1.0
+104,2,28,28,base,B_nBio,1,104,0,0,1,median leaflets,B_Bio,,+1,1.0
+104,3,30,30,margin,B_nBio,1,104,0,0,1,median leaflets,B_Bio,,+1,1.0
+105,2,16,17,upper margin,B_nBio,0,105,0,0,0,leaflets,B_Bio,,+1,1.0
+106,2,14,14,margin,B_nBio,6,106,0,0,0,annulus,B_Bio,,-1,1.0
+106,2,14,14,margin,B_nBio,6,106,1,5,6,upper annulus,B_Bio,,+1,-1.0
+106,3,19,19,margin,B_nBio,23,106,0,0,0,annulus,B_Bio,,-1,1.0
+106,3,19,19,margin,B_nBio,23,106,4,22,23,upper surface,B_nBio,6,+1,1.0
+106,4,22,23,upper surface,B_nBio,6,106,0,0,0,annulus,B_Bio,,-1,1.0
+106,4,22,23,upper surface,B_nBio,6,106,1,5,6,upper annulus,B_Bio,,+1,-1.0
+107,3,12,12,notch,B_nBio,4,107,1,4,4,scale,B_Bio,,+1,1.0
+108,2,9,9,notch,B_nBio,0,108,0,0,0,scale,B_Bio,,+1,1.0
+109,1,10,11,central notch,B_nBio,1,109,0,1,1,tail,B_Bio,,+1,1.0
+110,2,8,9,upper margin,B_nBio,1,110,0,1,1,scale,B_Bio,,+1,1.0
+110,3,13,13,middle,B_nBio,1,110,0,1,1,scale,B_Bio,,+1,1.0
+110,4,20,20,notch,B_nBio,9,110,0,1,1,scale,B_Bio,,-1,1.0
+110,4,20,20,notch,B_nBio,9,110,2,8,9,upper margin,B_nBio,1,+1,-1.0
+111,2,9,10,anterior margin,B_nBio,1,111,0,1,1,clypeus,B_Bio,,+1,1.0
+111,3,15,15,notch,B_nBio,10,111,0,1,1,clypeus,B_Bio,,-1,1.0
+111,3,15,15,notch,B_nBio,10,111,2,9,10,anterior margin,B_nBio,1,+1,-1.0
+111,3,15,15,notch,B_nBio,10,111,4,18,18,mandibles,B_Bio,,-1,1.0
+112,1,6,7,inner margins,B_nBio,1,112,0,1,1,mandibles,B_Bio,,+1,1.0
+112,2,15,15,notch,B_nBio,1,112,0,1,1,mandibles,B_Bio,,+1,1.0
+112,3,18,18,apex,B_nBio,1,112,0,1,1,mandibles,B_Bio,,+1,1.0
+112,4,23,23,base,B_nBio,1,112,0,1,1,mandibles,B_Bio,,+1,1.0
+112,5,25,25,apex,B_nBio,1,112,0,1,1,mandibles,B_Bio,,+1,1.0
+113,6,34,34,parts,B_nBio,1,113,0,1,1,thorax,B_Bio,,+1,1.0
+113,6,34,34,parts,B_nBio,1,113,7,37,37,thorax,B_Bio,,-1,1.0
+113,9,48,49,lateral margins,B_nBio,1,113,0,1,1,thorax,B_Bio,,+1,1.0
+113,9,48,49,lateral margins,B_nBio,1,113,7,37,37,thorax,B_Bio,,-1,1.0
+113,9,48,49,lateral margins,B_nBio,1,113,8,42,42,disk,B_Bio,,-1,1.0
+115,1,34,35,germ pore,B_nBio,0,115,0,0,0,spores,B_Bio,,+1,1.0
+116,2,13,14,posterior portion,B_nBio,0,116,0,0,0,thorax,B_Bio,,+1,1.0
+117,1,6,6,sides,B_nBio,0,117,0,0,0,thorax,B_Bio,,+1,1.0
+117,2,12,13,anterior portion,B_nBio,0,117,0,0,0,thorax,B_Bio,,+1,1.0
+118,1,8,9,lateral margins,B_nBio,0,118,0,0,0,thorax,B_Bio,,+1,1.0
+118,2,16,16,portions,B_nBio,0,118,0,0,0,thorax,B_Bio,,+1,1.0
+119,2,10,10,portion,B_nBio,13,119,3,13,13,head,B_Bio,,+1,1.0
+120,2,24,24,middle,B_nBio,0,120,0,0,0,pileus,B_Bio,,+1,1.0
+120,3,26,26,surface,B_nBio,0,120,0,0,0,pileus,B_Bio,,+1,1.0
+120,4,32,32,margin,B_nBio,0,120,0,0,0,pileus,B_Bio,,+1,1.0
+120,4,32,32,margin,B_nBio,0,120,3,26,26,surface,B_nBio,0,-1,1.0
+120,6,55,55,margin,B_nBio,53,120,0,0,0,pileus,B_Bio,,-1,1.0
+120,6,55,55,margin,B_nBio,53,120,5,53,53,pileus,B_Bio,,+1,1.0
+120,8,72,73,inner portion,B_nBio,55,120,0,0,0,pileus,B_Bio,,-1,1.0
+120,8,72,73,inner portion,B_nBio,55,120,5,53,53,pileus,B_Bio,,-1,1.0
+120,8,72,73,inner portion,B_nBio,55,120,6,55,55,margin,B_nBio,53,+1,-1.0
+121,2,11,11,surface,B_nBio,0,121,0,0,0,pileus,B_Bio,,+1,1.0
+121,3,26,27,upper portion,B_nBio,30,121,4,30,30,volva,B_Bio,,+1,1.0
+121,7,49,49,margin,B_nBio,0,121,0,0,0,pileus,B_Bio,,+1,1.0
+121,7,49,49,margin,B_nBio,0,121,5,40,40,scales,B_Bio,,-1,1.0
+121,7,49,49,margin,B_nBio,0,121,6,46,46,scales,B_Bio,,-1,1.0
+121,8,51,51,margin,B_nBio,0,121,0,0,0,pileus,B_Bio,,+1,1.0
+121,8,51,51,margin,B_nBio,0,121,5,40,40,scales,B_Bio,,-1,1.0
+121,8,51,51,margin,B_nBio,0,121,6,46,46,scales,B_Bio,,-1,1.0
+122,2,17,17,faces,B_nBio,3,122,0,0,0,leaves,B_Bio,,-1,1.0
+122,2,17,17,faces,B_nBio,3,122,1,3,3,blades,B_Bio,,+1,1.0
+122,5,32,32,apices,B_nBio,27,122,0,0,0,leaves,B_Bio,,-1,1.0
+122,5,32,32,apices,B_nBio,27,122,1,3,3,blades,B_Bio,,-1,1.0
+122,5,32,32,apices,B_nBio,27,122,4,27,27,phyllaries,B_Bio,,+1,1.0
+122,6,37,39,outer abaxial faces,B_nBio,27,122,4,27,27,phyllaries,B_Bio,,+1,1.0
+122,11,71,72,stigmatic portions,B_nBio,46,122,7,46,46,corollas,B_Bio,,+1,-1.0
+123,5,20,20,face,B_nBio,0,123,0,0,0,head,B_Bio,,+1,1.0
+123,5,20,20,face,B_nBio,0,123,2,7,7,head,B_Bio,,-1,1.0
+123,5,20,20,face,B_nBio,0,123,6,23,24,anterior margin,B_nBio,0,-1,1.0
+123,6,23,24,anterior margin,B_nBio,0,123,0,0,0,head,B_Bio,,+1,1.0
+123,6,23,24,anterior margin,B_nBio,0,123,2,7,7,head,B_Bio,,-1,1.0
+123,6,23,24,anterior margin,B_nBio,0,123,5,20,20,face,B_nBio,0,-1,1.0
+123,7,27,27,side,B_nBio,31,123,0,0,0,head,B_Bio,,-1,1.0
+123,7,27,27,side,B_nBio,31,123,3,9,9,thorax,B_Bio,,-1,1.0
+123,7,27,27,side,B_nBio,31,123,5,20,20,face,B_nBio,0,-1,1.0
+123,7,27,27,side,B_nBio,31,123,8,30,31,central protuberance,B_nBio,20,+1,1.0
+123,8,30,31,central protuberance,B_nBio,20,123,5,20,20,face,B_nBio,0,+1,1.0
+125,1,4,5,apical protuberances,B_nBio,0,125,0,0,0,sporophylls,B_Bio,,+1,1.0
+126,2,25,26,apical protuberance,B_nBio,0,126,0,0,0,cheilocystidia,B_Bio,,+1,1.0
+126,5,44,45,terminal element,B_nBio,0,126,0,0,0,cheilocystidia,B_Bio,,+1,1.0
+127,2,23,23,surface,B_nBio,0,127,0,0,0,pileus,B_Bio,,+1,1.0
+127,6,67,67,margin,B_nBio,0,127,0,0,0,pileus,B_Bio,,+1,1.0
+127,6,67,67,margin,B_nBio,0,127,5,53,53,scales,B_Bio,,-1,1.0
+127,7,74,74,remnants,B_nBio,0,127,0,0,0,pileus,B_Bio,,+1,1.0
+128,1,11,11,remnants,B_nBio,14,128,2,14,14,pileus,B_Bio,,+1,1.0
+128,1,11,11,remnants,B_nBio,14,128,3,14,15,pileus margin,B_Bio,,+1,1.0
+128,4,17,18,upper surface,B_nBio,0,128,0,0,0,annulus,B_Bio,,+1,1.0
+129,2,7,7,edges,B_nBio,10,129,3,9,10,outer web,B_Bio,,+1,1.0
+129,4,13,13,portion,B_nBio,15,129,5,15,15,feathers,B_Bio,,+1,1.0
+129,6,19,20,basal section,B_nBio,22,129,7,22,22,secondaries,B_Bio,,+1,1.0
+130,0,0,1,lower section,B_nBio,3,130,1,3,3,leg,B_Bio,,+1,1.0
+131,4,27,27,section,B_nBio,15,131,0,0,0,leaves,B_Bio,,-1,1.0
+131,4,27,27,section,B_nBio,15,131,3,15,15,leaves,B_Bio,,+1,1.0
+132,1,14,14,section,B_nBio,0,132,0,0,0,annulus,B_Bio,,+1,1.0
+132,3,41,42,inner side,B_nBio,0,132,0,0,0,annulus,B_Bio,,+1,1.0
+132,5,54,55,lower surface,B_nBio,0,132,0,0,0,annulus,B_Bio,,+1,1.0
+132,7,71,71,margin,B_nBio,0,132,0,0,0,annulus,B_Bio,,+1,1.0
+132,7,71,71,margin,B_nBio,0,132,5,54,55,lower surface,B_nBio,0,-1,1.0
+133,1,28,28,section,B_nBio,0,133,0,0,0,annulus,B_Bio,,+1,1.0
+133,6,44,45,upper surface,B_nBio,0,133,0,0,0,annulus,B_Bio,,+1,1.0
+133,7,53,54,lower surface,B_nBio,0,133,0,0,0,annulus,B_Bio,,+1,1.0
+135,3,17,17,middle,B_nBio,1,135,0,1,1,head,B_Bio,,+1,1.0
+135,3,17,17,middle,B_nBio,1,135,5,23,23,head,B_Bio,,-1,1.0
+135,4,20,20,sides,B_nBio,1,135,0,1,1,head,B_Bio,,+1,1.0
+135,4,20,20,sides,B_nBio,1,135,1,6,6,thorax,B_Bio,,-1,1.0
+135,4,20,20,sides,B_nBio,1,135,5,23,23,head,B_Bio,,-1,1.0
+136,1,4,4,base,B_nBio,15,136,0,0,0,abdomen,B_Bio,,-1,1.0
+136,1,4,4,base,B_nBio,15,136,2,7,7,spot,B_Bio,,-1,1.0
+136,1,4,4,base,B_nBio,15,136,4,15,15,segments,B_Bio,,+1,-1.0
+136,3,10,10,side,B_nBio,15,136,4,15,15,segments,B_Bio,,+1,1.0
+137,3,8,8,sides,B_nBio,5,137,2,5,5,thorax,B_Bio,,+1,1.0
+139,4,21,21,edges,B_nBio,24,139,5,24,24,rhachis,B_Bio,,+1,1.0
+139,6,27,28,adaxial side,B_nBio,15,139,0,0,0,leaflets,B_Bio,,-1,1.0
+139,6,27,28,adaxial side,B_nBio,15,139,3,15,15,leaflets,B_Bio,,+1,1.0
+140,2,20,20,groove,B_nBio,24,140,0,0,0,leaves,B_Bio,,-1,1.0
+140,2,20,20,groove,B_nBio,24,140,1,11,11,petiole,B_Bio,,-1,1.0
+140,2,20,20,groove,B_nBio,24,140,3,23,24,upper side,B_nBio,11,+1,1.0
+140,3,23,24,upper side,B_nBio,11,140,0,0,0,leaves,B_Bio,,-1,1.0
+140,3,23,24,upper side,B_nBio,11,140,1,11,11,petiole,B_Bio,,+1,1.0
+140,5,35,36,lower side,B_nBio,11,140,0,0,0,leaves,B_Bio,,-1,1.0
+140,5,35,36,lower side,B_nBio,11,140,1,11,11,petiole,B_Bio,,+1,1.0
+141,1,16,16,surface,B_nBio,0,141,0,0,0,pileus,B_Bio,,+1,1.0
+141,3,58,58,margin,B_nBio,0,141,0,0,0,pileus,B_Bio,,+1,1.0
+141,6,82,83,inner side,B_nBio,58,141,0,0,0,pileus,B_Bio,,-1,1.0
+141,6,82,83,inner side,B_nBio,58,141,1,16,16,surface,B_nBio,0,-1,1.0
+141,6,82,83,inner side,B_nBio,58,141,3,58,58,margin,B_nBio,0,+1,1.0
+142,1,7,7,sides,B_nBio,9,142,2,9,9,lamellae,B_Bio,,+1,1.0
+142,4,27,27,content,B_nBio,1,142,0,1,1,macrobasidia,B_Bio,,+1,1.0
+143,1,14,14,margins,B_nBio,0,143,0,0,0,blades,B_Bio,,+1,1.0
+143,3,27,27,side,B_nBio,0,143,0,0,0,blades,B_Bio,,+1,1.0
+143,3,27,27,side,B_nBio,0,143,1,14,14,margins,B_nBio,0,-1,1.0
+143,4,29,29,bases,B_nBio,0,143,0,0,0,blades,B_Bio,,+1,1.0
+143,5,32,32,apices,B_nBio,0,143,0,0,0,blades,B_Bio,,+1,1.0
+143,6,41,41,faces,B_nBio,0,143,0,0,0,blades,B_Bio,,+1,1.0
+144,3,13,13,side,B_nBio,0,144,0,0,0,stems,B_Bio,,+1,1.0
+145,3,12,13,lateral strata,B_nBio,1,145,0,0,1,hymenophoral trama,B_Bio,,+1,-1.0
+146,3,18,19,superior surface,B_nBio,0,146,0,0,0,thorax,B_Bio,,+1,1.0
+147,3,14,15,superior surface,B_nBio,1,147,0,1,1,metathorax,B_Bio,,+1,1.0
+148,1,5,5,base,B_nBio,0,148,0,0,0,abdomen,B_Bio,,+1,1.0
+148,4,20,21,upper surface,B_nBio,9,148,0,0,0,abdomen,B_Bio,,-1,1.0
+148,4,20,21,upper surface,B_nBio,9,148,2,9,9,node,B_Bio,,+1,1.0
+150,4,16,16,surfaces,B_nBio,0,150,0,0,0,leaflets,B_Bio,,+1,1.0
+151,3,26,26,tip,B_nBio,23,151,0,0,0,pollen,B_Bio,,-1,1.0
+151,3,26,26,tip,B_nBio,23,151,2,23,23,microsporophylls,B_Bio,,+1,1.0
+151,7,45,48,adaxial and abaxial surfaces,B_nBio,52,151,8,52,52,region,B_Bio,,+1,1.0
+152,1,16,16,surface,B_nBio,0,152,0,0,0,pileus,B_Bio,,+1,1.0
+153,1,16,16,margin,B_nBio,0,153,0,0,0,pileus,B_Bio,,+1,1.0
+153,2,23,23,center,B_nBio,0,153,0,0,0,pileus,B_Bio,,+1,1.0
+153,5,51,52,marginal area,B_nBio,0,153,0,0,0,pileus,B_Bio,,+1,1.0
+153,7,72,72,surface,B_nBio,0,153,0,0,0,pileus,B_Bio,,+1,1.0
+154,5,18,18,surface,B_nBio,15,154,4,15,15,rhizomes,B_Bio,,+1,1.0
+155,5,17,17,surface,B_nBio,15,155,4,15,15,rhizomes,B_Bio,,+1,1.0
+156,2,14,14,tip,B_nBio,17,156,0,0,0,thorax,B_Bio,,-1,1.0
+156,2,14,14,tip,B_nBio,17,156,3,17,17,mandibles,B_Bio,,+1,1.0
+157,5,32,32,apex,B_nBio,23,157,2,23,23,legs,B_Bio,,+1,1.0
+157,5,32,32,apex,B_nBio,23,157,7,38,38,legs,B_Bio,,-1,1.0
+157,9,44,44,tip,B_nBio,47,157,10,47,47,abdomen,B_Bio,,+1,1.0
+159,2,11,11,tips,B_nBio,5,159,1,5,5,cotyledons,B_Bio,,+1,1.0
+160,1,3,3,tip,B_nBio,0,160,0,0,0,microsporophylls,B_Bio,,+1,1.0
+160,5,22,25,adaxial and abaxial surfaces,B_nBio,29,160,6,29,29,region,B_Bio,,+1,1.0
+161,3,17,18,terminal elements,B_nBio,0,161,0,0,0,pileipellis,B_Bio,,+1,1.0
+161,4,23,23,tips,B_nBio,18,161,0,0,0,pileipellis,B_Bio,,-1,1.0
+161,4,23,23,tips,B_nBio,18,161,3,17,18,terminal elements,B_nBio,0,+1,1.0
+162,1,3,3,margins,B_nBio,0,162,0,0,0,leaves,B_Bio,,+1,1.0
+163,2,11,11,tips,B_nBio,3,163,0,3,3,phyllary,B_Bio,,+1,1.0
+163,2,11,11,tips,B_nBio,3,163,1,3,4,phyllary apices,B_Bio,,+1,-1.0
+164,1,32,32,walls,B_nBio,0,164,0,0,0,spores,B_Bio,,+1,1.0
+164,2,35,36,hilar appendix,B_nBio,0,164,0,0,0,spores,B_Bio,,+1,1.0
+164,3,40,41,germ pore,B_nBio,0,164,0,0,0,spores,B_Bio,,+1,1.0
+165,1,35,35,walls,B_nBio,0,165,0,0,0,spores,B_Bio,,+1,1.0
+165,4,43,44,germ pore,B_nBio,0,165,0,0,0,spores,B_Bio,,+1,1.0
+166,2,15,16,distal zone,B_nBio,0,166,0,0,0,megasporophyll,B_Bio,,+1,1.0
+167,1,17,17,zone,B_nBio,0,167,0,0,1,microsporophyll lamina,B_Bio,,+1,1.0
+167,2,23,23,apex,B_nBio,0,167,0,0,1,microsporophyll lamina,B_Bio,,+1,1.0
+168,1,17,17,margin,B_nBio,0,168,0,0,0,pileus,B_Bio,,+1,1.0
+168,2,38,39,marginal zone,B_nBio,0,168,0,0,0,pileus,B_Bio,,+1,1.0
+168,4,57,57,middle,B_nBio,0,168,0,0,0,pileus,B_Bio,,+1,1.0
+168,4,57,57,middle,B_nBio,0,168,3,50,50,scales,B_Bio,,-1,1.0
+168,5,62,63,peri-marginal zone,B_nBio,0,168,0,0,0,pileus,B_Bio,,+1,1.0
+168,8,84,85,marginal zone,B_nBio,0,168,0,0,0,pileus,B_Bio,,+1,1.0
+169,4,29,30,apical zones,B_nBio,11,169,0,4,4,caudices,B_Bio,,-1,1.0
+169,4,29,30,apical zones,B_nBio,11,169,3,11,11,phyllaries,B_Bio,,+1,1.0
